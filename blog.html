@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dori - Blog & Insights</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/blog.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="main-header">
+    <div class="container header-container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/dori-logo.png" alt="Dori Logo">
+        </a>
+      </div>
+      <nav class="main-nav">
+        <button class="mobile-menu-toggle" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-list">
+          <li class="nav-item has-dropdown">
+            <a href="#">Platform <i class="fas fa-chevron-down"></i></a>
+            <div class="dropdown-menu">
+              <ul>
+                <li><a href="platforms.html">Overview</a></li>
+                <li><a href="visual-intelligence.html">Visual Intelligence</a></li>
+                <li><a href="data-analytics.html">Data Analytics</a></li>
+                <li><a href="ai-solutions.html">AI Solutions</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item has-dropdown">
+            <a href="#">Solutions <i class="fas fa-chevron-down"></i></a>
+            <div class="dropdown-menu">
+              <ul>
+                <li><a href="solutions.html">Manufacturing</a></li>
+                <li><a href="logistics.html">Logistics</a></li>
+                <li><a href="operations.html">Operations</a></li>
+                <li><a href="quality-control.html">Quality Control</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item has-dropdown">
+            <a href="#">Industries <i class="fas fa-chevron-down"></i></a>
+            <div class="dropdown-menu">
+              <ul>
+                <li><a href="automotive.html">Automotive</a></li>
+                <li><a href="electronics.html">Electronics</a></li>
+                <li><a href="aerospace.html">Aerospace</a></li>
+                <li><a href="consumer-goods.html">Consumer Goods</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item has-dropdown active">
+            <a href="#">Resources <i class="fas fa-chevron-down"></i></a>
+            <div class="dropdown-menu">
+              <ul>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="resources.html">Resource Library</a></li>
+                <li><a href="case-studies.html">Case Studies</a></li>
+                <li><a href="whitepapers.html">Whitepapers</a></li>
+                <li><a href="documentation.html">Documentation</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <div class="cta-button">
+        <a href="#" class="btn btn-primary">BOOK A DEMO</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="blog-hero">
+    <div class="container">
+      <h1 class="title">Manufacturing Intelligence Blog</h1>
+      <p class="description">Stay ahead with the latest insights on AI, computer vision, and manufacturing innovation from industry experts.</p>
+    </div>
+  </section>
+
+  <section class="blog-filters">
+    <div class="container">
+      <div class="filter-container">
+        <button class="filter-btn active" data-filter="all">All Posts</button>
+        <button class="filter-btn" data-filter="ai">AI & Machine Learning</button>
+        <button class="filter-btn" data-filter="manufacturing">Manufacturing</button>
+        <button class="filter-btn" data-filter="quality">Quality Control</button>
+        <button class="filter-btn" data-filter="automation">Automation</button>
+        <button class="filter-btn" data-filter="case-study">Case Studies</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="blog-section">
+    <div class="container">
+      <!-- Featured Post -->
+      <div class="featured-post">
+        <div class="featured-image">
+          <img src="images/visual-data-icon.png" alt="AI Manufacturing Revolution">
+        </div>
+        <div class="featured-content">
+          <span class="featured-tag">FEATURED</span>
+          <h2 class="featured-title">The AI Manufacturing Revolution: What's Next?</h2>
+          <p class="featured-excerpt">Explore how artificial intelligence is transforming manufacturing operations, from predictive maintenance to quality control, and what the future holds for smart factories.</p>
+          <a href="blog-post.html" class="btn btn-primary">Read Full Article</a>
+        </div>
+      </div>
+
+      <!-- Blog Grid -->
+      <div class="blog-grid">
+        <article class="blog-card" data-category="manufacturing">
+          <div class="blog-card-image">
+            <img src="images/solutions-features.png" alt="Computer Vision in Manufacturing">
+            <span class="blog-tag">MANUFACTURING</span>
+          </div>
+          <div class="blog-card-content">
+            <div class="blog-card-meta">
+              <span><i class="fas fa-calendar"></i> January 15, 2025</span>
+              <span><i class="fas fa-clock"></i> 5 min read</span>
+            </div>
+            <h3 class="blog-card-title">How Computer Vision is Revolutionizing Quality Control</h3>
+            <p class="blog-card-excerpt">Discover how advanced computer vision technology is helping manufacturers detect defects faster and more accurately than ever before.</p>
+            <a href="blog-post.html" class="read-more">Read More →</a>
+          </div>
+        </article>
+
+        <article class="blog-card" data-category="ai">
+          <div class="blog-card-image">
+            <img src="images/process-monitoring.png" alt="AI Predictive Maintenance">
+            <span class="blog-tag">AI & ML</span>
+          </div>
+          <div class="blog-card-content">
+            <div class="blog-card-meta">
+              <span><i class="fas fa-calendar"></i> January 12, 2025</span>
+              <span><i class="fas fa-clock"></i> 7 min read</span>
+            </div>
+            <h3 class="blog-card-title">Predictive Maintenance: The AI Advantage</h3>
+            <p class="blog-card-excerpt">Learn how AI-powered predictive maintenance is reducing downtime and maintenance costs across manufacturing facilities.</p>
+            <a href="blog-post.html" class="read-more">Read More →</a>
+          </div>
+        </article>
+
+        <article class="blog-card" data-category="case-study">
+          <div class="blog-card-image">
+            <img src="images/community.png" alt="Automotive Case Study">
+            <span class="blog-tag">CASE STUDY</span>
+          </div>
+          <div class="blog-card-content">
+            <div class="blog-card-meta">
+              <span><i class="fas fa-calendar"></i> January 10, 2025</span>
+              <span><i class="fas fa-clock"></i> 8 min read</span>
+            </div>
+            <h3 class="blog-card-title">Automotive Giant Reduces Defects by 67% with Dori AI</h3>
+            <p class="blog-card-excerpt">See how a leading automotive manufacturer transformed their quality control process using Dori's computer vision platform.</p>
+            <a href="blog-post.html" class="read-more">Read More →</a>
+          </div>
+        </article>
+
+        <article class="blog-card" data-category="automation">
+          <div class="blog-card-image">
+            <img src="images/site-visibility.png" alt="Smart Factory Automation">
+            <span class="blog-tag">AUTOMATION</span>
+          </div>
+          <div class="blog-card-content">
+            <div class="blog-card-meta">
+              <span><i class="fas fa-calendar"></i> January 8, 2025</span>
+              <span><i class="fas fa-clock"></i> 6 min read</span>
+            </div>
+            <h3 class="blog-card-title">Building the Smart Factory of Tomorrow</h3>
+            <p class="blog-card-excerpt">Explore the key technologies and strategies for creating fully automated, intelligent manufacturing facilities.</p>
+            <a href="blog-post.html" class="read-more">Read More →</a>
+          </div>
+        </article>
+
+        <article class="blog-card" data-category="quality">
+          <div class="blog-card-image">
+            <img src="images/production-monitoring.png" alt="Quality Metrics">
+            <span class="blog-tag">QUALITY</span>
+          </div>
+          <div class="blog-card-content">
+            <div class="blog-card-meta">
+              <span><i class="fas fa-calendar"></i> January 5, 2025</span>
+              <span><i class="fas fa-clock"></i> 4 min read</span>
+            </div>
+            <h3 class="blog-card-title">5 Essential Quality Metrics Every Manufacturer Should Track</h3>
+            <p class="blog-card-excerpt">Understand the key performance indicators that drive quality improvement and operational excellence in manufacturing.</p>
+            <a href="blog-post.html" class="read-more">Read More →</a>
+          </div>
+        </article>
+
+        <article class="blog-card" data-category="manufacturing">
+          <div class="blog-card-image">
+            <img src="images/Asset-Equipment-Utilization.jpg" alt="Digital Transformation">
+            <span class="blog-tag">MANUFACTURING</span>
+          </div>
+          <div class="blog-card-content">
+            <div class="blog-card-meta">
+              <span><i class="fas fa-calendar"></i> January 3, 2025</span>
+              <span><i class="fas fa-clock"></i> 9 min read</span>
+            </div>
+            <h3 class="blog-card-title">Digital Transformation in Manufacturing: A Complete Guide</h3>
+            <p class="blog-card-excerpt">Navigate the journey of digital transformation with practical insights and proven strategies for manufacturing success.</p>
+            <a href="blog-post.html" class="read-more">Read More →</a>
+          </div>
+        </article>
+      </div>
+
+      <!-- Pagination -->
+      <div class="pagination">
+        <a href="#" class="pagination-btn">← Previous</a>
+        <a href="#" class="pagination-btn active">1</a>
+        <a href="#" class="pagination-btn">2</a>
+        <a href="#" class="pagination-btn">3</a>
+        <a href="#" class="pagination-btn">Next →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="newsletter-signup">
+    <div class="container">
+      <h2 class="section-title">Stay Updated</h2>
+      <p class="section-description">Get the latest manufacturing insights delivered to your inbox.</p>
+      <form class="newsletter-form">
+        <input type="email" class="newsletter-input" placeholder="Enter your email address" required>
+        <button type="submit" class="newsletter-btn">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-logo">
+          <img src="images/dori_site_logo.svg" alt="Dori Logo">
+          <p>Built to let you see real-time information about production utilizing computer vision and AI technology to give manufacturers valuable insights into process performance to increase human productivity and improve process compliance.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-column">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="platforms.html">Platform</a></li>
+              <li><a href="solutions.html">Solutions</a></li>
+              <li><a href="#">About Dori</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Solutions</h3>
+            <ul>
+              <li><a href="solutions.html">Manufacturing</a></li>
+              <li><a href="#">Logistics</a></li>
+              <li><a href="#">Operations</a></li>
+              <li><a href="#">Quality Control</a></li>
+              <li><a href="#">Supply Chain</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="social-icons">
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 Dori. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/blog.js"></script>
+</body>
+</html>

@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dori - Resource Library</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/resources.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="main-header">
+    <div class="container header-container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/dori-logo.png" alt="Dori Logo">
+        </a>
+      </div>
+      <nav class="main-nav">
+        <button class="mobile-menu-toggle" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-list">
+          <li class="nav-item has-dropdown">
+            <a href="#">Platform <i class="fas fa-chevron-down"></i></a>
+            <div class="dropdown-menu">
+              <ul>
+                <li><a href="platforms.html">Overview</a></li>
+                <li><a href="visual-intelligence.html">Visual Intelligence</a></li>
+                <li><a href="data-analytics.html">Data Analytics</a></li>
+                <li><a href="ai-solutions.html">AI Solutions</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item has-dropdown">
+            <a href="#">Solutions <i class="fas fa-chevron-down"></i></a>
+            <div class="dropdown-menu">
+              <ul>
+                <li><a href="solutions.html">Manufacturing</a></li>
+                <li><a href="logistics.html">Logistics</a></li>
+                <li><a href="operations.html">Operations</a></li>
+                <li><a href="quality-control.html">Quality Control</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item has-dropdown">
+            <a href="#">Industries <i class="fas fa-chevron-down"></i></a>
+            <div class="dropdown-menu">
+              <ul>
+                <li><a href="automotive.html">Automotive</a></li>
+                <li><a href="electronics.html">Electronics</a></li>
+                <li><a href="aerospace.html">Aerospace</a></li>
+                <li><a href="consumer-goods.html">Consumer Goods</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item has-dropdown active">
+            <a href="#">Resources <i class="fas fa-chevron-down"></i></a>
+            <div class="dropdown-menu">
+              <ul>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="resources.html">Resource Library</a></li>
+                <li><a href="case-studies.html">Case Studies</a></li>
+                <li><a href="whitepapers.html">Whitepapers</a></li>
+                <li><a href="documentation.html">Documentation</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <div class="cta-button">
+        <a href="#" class="btn btn-primary">BOOK A DEMO</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="resources-hero">
+    <div class="container">
+      <h1 class="title">Resource Library</h1>
+      <p class="description">Access comprehensive guides, whitepapers, case studies, and documentation to accelerate your manufacturing transformation journey.</p>
+    </div>
+  </section>
+
+  <section class="resource-categories">
+    <div class="container">
+      <h2 class="section-title">Browse by Category</h2>
+      <div class="categories-grid">
+        <div class="category-card" data-category="whitepapers">
+          <div class="category-icon">
+            <i class="fas fa-file-alt"></i>
+          </div>
+          <h3 class="category-title">Whitepapers</h3>
+          <p class="category-count">12 Resources</p>
+        </div>
+        
+        <div class="category-card" data-category="case-studies">
+          <div class="category-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3 class="category-title">Case Studies</h3>
+          <p class="category-count">8 Resources</p>
+        </div>
+        
+        <div class="category-card" data-category="guides">
+          <div class="category-icon">
+            <i class="fas fa-book"></i>
+          </div>
+          <h3 class="category-title">Implementation Guides</h3>
+          <p class="category-count">15 Resources</p>
+        </div>
+        
+        <div class="category-card" data-category="ebooks">
+          <div class="category-icon">
+            <i class="fas fa-book-open"></i>
+          </div>
+          <h3 class="category-title">E-books</h3>
+          <p class="category-count">6 Resources</p>
+        </div>
+        
+        <div class="category-card" data-category="webinars">
+          <div class="category-icon">
+            <i class="fas fa-video"></i>
+          </div>
+          <h3 class="category-title">Webinars</h3>
+          <p class="category-count">10 Resources</p>
+        </div>
+        
+        <div class="category-card" data-category="documentation">
+          <div class="category-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3 class="category-title">Documentation</h3>
+          <p class="category-count">25 Resources</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="resource-filters">
+    <div class="container">
+      <div class="filters-container">
+        <div class="filter-tabs">
+          <button class="filter-tab active" data-filter="all">All Resources</button>
+          <button class="filter-tab" data-filter="whitepapers">Whitepapers</button>
+          <button class="filter-tab" data-filter="case-studies">Case Studies</button>
+          <button class="filter-tab" data-filter="guides">Guides</button>
+          <button class="filter-tab" data-filter="ebooks">E-books</button>
+          <button class="filter-tab" data-filter="webinars">Webinars</button>
+        </div>
+        
+        <div class="search-box">
+          <input type="text" class="search-input" placeholder="Search resources...">
+          <button class="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="featured-resources">
+    <div class="container">
+      <h2 class="section-title">Featured Resources</h2>
+      <div class="featured-grid">
+        <div class="featured-card">
+          <div class="featured-image">
+            <img src="images/solutions-features.png" alt="AI Manufacturing Guide">
+          </div>
+          <div class="featured-content">
+            <span class="featured-type">E-BOOK</span>
+            <h3 class="featured-title">The Complete Guide to AI in Manufacturing</h3>
+            <p class="featured-description">A comprehensive 50-page guide covering everything from AI fundamentals to implementation strategies for manufacturing leaders.</p>
+            <a href="#" class="btn btn-primary">Download Now</a>
+          </div>
+        </div>
+        
+        <div class="featured-card">
+          <div class="featured-image">
+            <img src="images/community.png" alt="ROI Calculator">
+          </div>
+          <div class="featured-content">
+            <span class="featured-type">TOOL</span>
+            <h3 class="featured-title">Manufacturing ROI Calculator</h3>
+            <p class="featured-description">Calculate the potential return on investment for implementing computer vision and AI solutions in your facility.</p>
+            <a href="#" class="btn btn-primary">Access Tool</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="resources-section">
+    <div class="container">
+      <div class="resources-grid">
+        <div class="resource-card" data-category="whitepapers">
+          <div class="resource-image">
+            <img src="images/Asset-Equipment-Utilization.jpg" alt="Quality Control Whitepaper">
+            <span class="resource-type">WHITEPAPER</span>
+          </div>
+          <div class="resource-content">
+            <div class="resource-meta">
+              <span><i class="fas fa-calendar"></i> January 2025</span>
+              <span><i class="fas fa-file-pdf"></i> PDF, 24 pages</span>
+            </div>
+            <h3 class="resource-title">Advanced Quality Control with Computer Vision</h3>
+            <p class="resource-description">Explore how computer vision technology is transforming quality control processes across manufacturing industries.</p>
+            <div class="resource-tags">
+              <span class="resource-tag">Quality Control</span>
+              <span class="resource-tag">Computer Vision</span>
+              <span class="resource-tag">Manufacturing</span>
+            </div>
+            <div class="resource-actions">
+              <button class="download-btn"><i class="fas fa-download"></i> Download</button>
+              <button class="share-btn"><i class="fas fa-share-alt"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="resource-card" data-category="case-studies">
+          <div class="resource-image">
+            <img src="images/Workforce_Productivity_Monitoring.jpg" alt="Automotive Case Study">
+            <span class="resource-type">CASE STUDY</span>
+          </div>
+          <div class="resource-content">
+            <div class="resource-meta">
+              <span><i class="fas fa-calendar"></i> December 2024</span>
+              <span><i class="fas fa-file-pdf"></i> PDF, 8 pages</span>
+            </div>
+            <h3 class="resource-title">Automotive Giant Reduces Defects by 67%</h3>
+            <p class="resource-description">Learn how a leading automotive manufacturer transformed their quality control process using Dori's AI platform.</p>
+            <div class="resource-tags">
+              <span class="resource-tag">Automotive</span>
+              <span class="resource-tag">ROI</span>
+              <span class="resource-tag">Success Story</span>
+            </div>
+            <div class="resource-actions">
+              <button class="download-btn"><i class="fas fa-download"></i> Download</button>
+              <button class="share-btn"><i class="fas fa-share-alt"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="resource-card" data-category="guides">
+          <div class="resource-image">
+            <img src="images/process-monitoring.png" alt="Implementation Guide">
+            <span class="resource-type">GUIDE</span>
+          </div>
+          <div class="resource-content">
+            <div class="resource-meta">
+              <span><i class="fas fa-calendar"></i> January 2025</span>
+              <span class="resource-tag">PDF, 32 pages</span>
+            </div>
+            <h3 class="resource-title">AI Implementation Roadmap for Manufacturers</h3>
+            <p class="resource-description">Step-by-step guide to successfully implementing AI and computer vision solutions in manufacturing environments.</p>
+            <div class="resource-tags">
+              <span class="resource-tag">Implementation</span>
+              <span class="resource-tag">Strategy</span>
+              <span class="resource-tag">Best Practices</span>
+            </div>
+            <div class="resource-actions">
+              <button class="download-btn"><i class="fas fa-download"></i> Download</button>
+              <button class="share-btn"><i class="fas fa-share-alt"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="resource-card" data-category="ebooks">
+          <div class="resource-image">
+            <img src="images/site-visibility.png" alt="Smart Factory E-book">
+            <span class="resource-type">E-BOOK</span>
+          </div>
+          <div class="resource-content">
+            <div class="resource-meta">
+              <span><i class="fas fa-calendar"></i> November 2024</span>
+              <span><i class="fas fa-file-pdf"></i> PDF, 45 pages</span>
+            </div>
+            <h3 class="resource-title">Building the Smart Factory of Tomorrow</h3>
+            <p class="resource-description">Comprehensive guide to digital transformation in manufacturing, covering IoT, AI, and automation technologies.</p>
+            <div class="resource-tags">
+              <span class="resource-tag">Smart Factory</span>
+              <span class="resource-tag">Digital Transformation</span>
+              <span class="resource-tag">IoT</span>
+            </div>
+            <div class="resource-actions">
+              <button class="download-btn"><i class="fas fa-download"></i> Download</button>
+              <button class="share-btn"><i class="fas fa-share-alt"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="resource-card" data-category="webinars">
+          <div class="resource-image">
+            <img src="images/production-monitoring.png" alt="Webinar Recording">
+            <span class="resource-type">WEBINAR</span>
+          </div>
+          <div class="resource-content">
+            <div class="resource-meta">
+              <span><i class="fas fa-calendar"></i> December 2024</span>
+              <span><i class="fas fa-video"></i> 45 minutes</span>
+            </div>
+            <h3 class="resource-title">Predictive Maintenance with AI: Live Demo</h3>
+            <p class="resource-description">Watch our experts demonstrate how AI-powered predictive maintenance can reduce downtime and maintenance costs.</p>
+            <div class="resource-tags">
+              <span class="resource-tag">Predictive Maintenance</span>
+              <span class="resource-tag">Live Demo</span>
+              <span class="resource-tag">AI</span>
+            </div>
+            <div class="resource-actions">
+              <button class="download-btn"><i class="fas fa-play"></i> Watch</button>
+              <button class="share-btn"><i class="fas fa-share-alt"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="resource-card" data-category="whitepapers">
+          <div class="resource-image">
+            <img src="images/Visual_Quality_Inspection.jpg" alt="ROI Whitepaper">
+            <span class="resource-type">WHITEPAPER</span>
+          </div>
+          <div class="resource-content">
+            <div class="resource-meta">
+              <span><i class="fas fa-calendar"></i> October 2024</span>
+              <span><i class="fas fa-file-pdf"></i> PDF, 16 pages</span>
+            </div>
+            <h3 class="resource-title">Measuring ROI in Manufacturing AI Investments</h3>
+            <p class="resource-description">Framework for calculating and demonstrating return on investment for AI and computer vision implementations.</p>
+            <div class="resource-tags">
+              <span class="resource-tag">ROI</span>
+              <span class="resource-tag">Business Case</span>
+              <span class="resource-tag">Metrics</span>
+            </div>
+            <div class="resource-actions">
+              <button class="download-btn"><i class="fas fa-download"></i> Download</button>
+              <button class="share-btn"><i class="fas fa-share-alt"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="newsletter-section">
+    <div class="container">
+      <h2 class="section-title">Stay Updated</h2>
+      <p class="section-description">Get notified when we publish new resources and insights.</p>
+      <form class="newsletter-form">
+        <input type="email" class="newsletter-input" placeholder="Enter your email address" required>
+        <button type="submit" class="newsletter-btn">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-logo">
+          <img src="images/dori_site_logo.svg" alt="Dori Logo">
+          <p>Built to let you see real-time information about production utilizing computer vision and AI technology to give manufacturers valuable insights into process performance to increase human productivity and improve process compliance.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-column">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="platforms.html">Platform</a></li>
+              <li><a href="solutions.html">Solutions</a></li>
+              <li><a href="#">About Dori</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Solutions</h3>
+            <ul>
+              <li><a href="solutions.html">Manufacturing</a></li>
+              <li><a href="#">Logistics</a></li>
+              <li><a href="#">Operations</a></li>
+              <li><a href="#">Quality Control</a></li>
+              <li><a href="#">Supply Chain</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="social-icons">
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 Dori. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/resources.js"></script>
+</body>
+</html>
