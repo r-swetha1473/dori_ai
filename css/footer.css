@@ -1,6 +1,6 @@
 /* Footer Styles */
 .main-footer {
-  background-color:var(--light-gray); 
+  background-color:var(--light-green); 
   color: var(--secondary-dark);
   padding: var(--spacing-5) 0;
 }

@@ -1,20 +1,22 @@
 /* Base Styles */
 :root {
-  --primary-color: #46BDA0;
-  --primary-dark: #3CA88C;
-  --primary-light: #5DCBAF;
+  --primary-color: #719f1e;     /* Deep teal/blue – main primary tone */
+  --primary-dark: #0e2514;      /* Darker shade for hover/active states */
+  --primary-light: #8FBC8F;     /* Retained from your previous palette */
+
+  --secondary-color: #104210;   /* Kept—complements the deep teal */
+  --secondary-dark: #104210;
+  --secondary-light: #4a7212;
   
-  --secondary-color: #264554;
-  --secondary-dark: #1D343E;
-  --secondary-light: #335C70;
-  
+  --light-green: #e3f5e6;
+
   --white: #FFFFFF;
   --light-gray: #F5F7F9;
   --medium-gray: #E1E7EC;
   --dark-gray: #7A8A94;
   
   --success: #28A745;
-  --warning: #FFC107;
+  --warning: #d5ce58;
   --danger: #DC3545;
   
   --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -168,13 +170,15 @@ p {
 }
 
 .btn-primary {
-  background-color: var(--primary-color);
-  color: var(--white);
+  /* background-color: var(--primary-color); */
+  background: linear-gradient(308.96deg,#b8ffd2 -8.65%,#d0f76e 81.32%);
+/* color: #4a7212; */
+  color: var( --primary-dark);
 }
 
 .btn-primary:hover, .btn-primary:focus {
   background-color: var(--primary-dark);
-  color: var(--white);
+  color: var(--secondary-color);
 }
 
 .btn-secondary {

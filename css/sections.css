@@ -22,7 +22,7 @@
 }
 
 .solutions-tab {
-  background-color: #0056b3;
+  background-color: #4a7212;
   color: white;
   border: 2px solid white;
   border-radius: 9999px;
@@ -132,7 +132,7 @@
 
 /* Trusted Section */
 .trusted-section {
-  background-color: var(--light-gray);
+  background-color: var(--light-green);
   padding: var(--spacing-5) 0;
 }
 
@@ -259,7 +259,7 @@
 /* Unique Section */
 .unique-section {
   padding: var(--spacing-6) 0;
-  background-color: var(--light-gray);
+  background-color: var(--light-green);
 }
 
 .unique-grid {
@@ -314,7 +314,7 @@
 /* Community Section */
 .community-section {
   padding: var(--spacing-6) 0;
-  background-color: var(--light-gray);
+  background-color: var(--light-green);
 }
 
 .story-card {
@@ -358,7 +358,7 @@
 
 .platform-features {
   padding: var(--spacing-6) 0;
-  background-color: var(--light-gray);
+  background-color: var(--light-green);
 }
 
 .platform-features .feature-grid {
@@ -391,7 +391,7 @@
 }
 
 .platform-roi {
-  background-color: var(--light-gray);
+  background-color: var(--light-green);
 }
 
 .platform-roi .section-title {
@@ -500,7 +500,7 @@
 /* FAQ Section */
 .faq-section {
   padding: var(--spacing-6) 0;
-  background-color: var(--light-gray);
+  background-color: var(--light-green);
 }
 
 .faq-accordion {
@@ -645,7 +645,7 @@
 
 .solutions-features {
   padding: var(--spacing-6) 0;
-  /* background-color: var(--light-gray); */
+  /* background-color: var(--light-green); */
 }
 
 .solutions-features .feature-grid {
@@ -655,7 +655,7 @@
 }
 
 .platform-applications {
-  background-image: url('../images/blue-dotted-bg.jpg');
+  /* background-image: url('../images/blue-dotted-bg.jpg'); */
   background-size: cover;
   background-position: center;
   padding: var(--spacing-6) 0;
@@ -690,7 +690,7 @@
 
 .ai-development {
   padding: var(--spacing-6) 0;
-  background-color: var(--light-gray);
+  background-color: var(--light-green);
 }
 
 .development-grid {
@@ -716,14 +716,15 @@
   width: 64px;
   height: 64px;
   margin: 0 auto var(--spacing-2);
-  background-color: rgba(0, 200, 150, 0.1); /* light green with transparency */
+  background-color:rgb(20 236 25 / 14%);
+ /* light green with transparency */
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 8px; /* rounded corners */
 }
 .card-icon i {
-  color: #00C896; /* green color like the image */
+  color: #719f1e; /* green color like the image */
   font-size: 24px; /* adjust as needed */
 }
 .development-card h3 {
