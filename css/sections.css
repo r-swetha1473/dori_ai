@@ -358,7 +358,7 @@
 
 .platform-features {
   padding: var(--spacing-6) 0;
-  background-color: var(--light-gray);
+  background-color: var(--white);
 }
 
 .platform-features .feature-grid {
@@ -845,4 +845,28 @@
   .unique-card:nth-child(7) {
     grid-column: span 2;
   }
+}
+.icon-wrapper {
+  display: flex;
+  gap: 12px; /* spacing between the circles */
+  align-items: center;
+   margin-bottom: 15px;
+}
+
+.icon-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: var(--primary-color); /* matched color from image */
+  color: white;
+  font-size: 20px;
+  
+}
+.custom-icon {
+  font-size: 40px; /* adjust size as needed */
+  color: var(--primary-color);  /* exact greenish-blue from your screenshot */
+  margin-bottom: 15px;
 }
