@@ -415,8 +415,85 @@ body {
   width: 40px;
   margin-bottom: 10px;
 }
+/* .dori-unique {
+  background-color: var(--secondary-dark);
+  padding: 60px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
 
+.unique-title {
+  font-size: 2.4rem;
+  color:var(--primary-color);
+  margin-bottom: 50px;
+}
 
+.unique-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.card {
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+}
+
+.card h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.card p {
+  font-size: 0.95rem;
+  margin-top: 8px;
+}
+
+.card small {
+  font-size: 0.75rem;
+  color:var(--white);
+}
+
+.card a {
+  color:var(--primary-dark);
+  text-decoration: underline;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+} */
+
+/* Background color variants */
+.white {
+  background-color:var(--white);
+  color: #000;
+}
+
+.purple {
+  background-color: var(--primary-color);
+  color:var(--white);
+}
+
+.dark {
+  background-color:var(--secondary-color);
+  color:var(--white);
+}
+
+.teal {
+  background-color:var(--primary-color);
+  color:var(--white);
+}
+
+/* Grid adjustments */
+.span-two {
+  grid-column: span 2;
+}
+/* 
 .dori-unique {
   background-color: #14333f;
   padding: 60px 20px;
@@ -469,10 +546,10 @@ body {
 
 .card:hover {
   transform: translateY(-5px);
-}
+} */
 
 /* Color classes */
-.white {
+/* .white {
   background-color: #fff;
   color: #000;
 }
@@ -490,19 +567,19 @@ body {
 .teal {
   background-color: #00c6ab;
   color: #fff;
-}
+} */
 
 /* Special wide box */
-.wide {
+/* .wide {
   grid-column: span 2;
-}
+} */
 
 /* Responsive handling */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .wide {
     grid-column: span 1;
   }
-}
+} */
 
 
 
@@ -646,11 +723,6 @@ h2 {
   font-size: 0.9rem;
 }
 
-
-
-
-
-
 .footer {
   background-color: #edf1f3;
   padding: 40px 20px;
@@ -735,3 +807,74 @@ h2 {
 
 
 
+.ai-platform-section {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.ai-feature-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 60px;
+  flex-wrap: wrap;
+}
+
+.ai-feature-row reverse {
+  flex-direction: row-reverse;
+}
+
+.ai-text {
+  max-width: 400px;
+  text-align: left;
+}
+
+.ai-text h3 {
+  color: #1d1d1d;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.ai-text p {
+  color: #3e4c59;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.ai-image img {
+  max-width: 480px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.ai-icon {
+  width: 40px;
+  margin-bottom: 15px;
+}
+
+.icon-wrapper {
+  display: flex;
+  gap: 12px; /* spacing between the circles */
+  align-items: center;
+   margin-bottom: 15px;
+}
+
+.icon-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: var(--primary-color); /* matched color from image */
+  color: white;
+  font-size: 20px;
+  
+}
+
+.custom-icon {
+  font-size: 40px; /* adjust size as needed */
+  color: var(--primary-color);  /* exact greenish-blue from your screenshot */
+  margin-bottom: 15px;
+}
